@@ -1,0 +1,45 @@
+body{
+    margin : 0;
+    padding : 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* to remove margin padding of hello we use margin :0 and padding :0   */
+
+.wrapper{
+    background-color: pink;
+    width: 100%;
+    margin-left : 5%;
+    margin-right : 5%;
+}
+
+.arrange-left{
+    float: left;
+    /* The float property is used for positioning and formatting content e.g. let an image float left to the text in a container. */
+/* The float property can have one of the following values: */
+/* left - The element floats to the left of its container */
+/* right - The element floats to the right of its container */
+}
+.wid-25{
+    width : 25%;
+}
+.wid-50{
+    width : 50%;
+}
+.next-row{
+    clear: both;
+}
+.common-btn{
+    height: 40px;
+    border: px solid #ddd;
+    border-radius: 0;
+    background-color: #fff;
+    min-width: 50px;
+    text-align: center;
+    color: #dd1200
+}
+
+.common-btn span{
+    font-size: 16px;
+    font-weight: 800;
+    padding-left: 0%;
+}
