@@ -1,0 +1,290 @@
+<html>
+  <head>
+    <title>E-Comm Website by Code Step By Step</title>
+    <link href="style.css" rel="stylesheet" />
+    <link href="common.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <div class="logo arrange-left wid-25">
+          <h1><span>E</span><span>Comm</span></h1>
+        </div>
+        <div class="search-product arrange-left wid-50">
+          <input type="text" placeholder="Search for Products" />
+          <button>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+        <div class="selected-product arrange-left wid-25">
+          <button class="common-btn">
+            <span>
+              <i class="fa-solid fa-cart-arrow-down"></i>
+              0</span
+            >
+          </button>
+          <button class="common-btn">
+            <span>
+              <i class="fa-solid fa-heart"></i>
+              0</span
+            >
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="full-banner-warapper">
+      <div class="shop-header">
+        <h1>Your shopping Details</h1>
+        <h3>- Cart Details -</h3>
+      </div>
+      <div class="wrapper next-row">
+        <div class="wid-75 arrange-left">
+          <div class="cart-details">
+            <table>
+              <thead>
+                <tr>
+                  <th>Product</th>
+                  <th>Price</th>
+                  <th>Quantity</th>
+                  <th>Total</th>
+                  <th>Remove</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="text-with-img">
+                    <img src="./cat-1.jpg" alt="" /><span>Colorful Shirt</span>
+                  </td>
+                  <td><span>$150</span></td>
+                  <td>
+                    <div class="quantity-input">
+                      <button>-</button>
+                      <input type="text" value="1" />
+                      <button>+</button>
+                    </div>
+                  </td>
+                  <td>$150</td>
+                  <td>
+                    <i class="fa fa-remove icon custom-delete-button"></i>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-with-img">
+                    <img src="./cat-2.jpg" alt="" /><span>Shoes</span>
+                  </td>
+                  <td><span>$350</span></td>
+                  <td>
+                    <div class="quantity-input">
+                      <button>-</button>
+                      <input type="text" value="2" />
+                      <button>+</button>
+                    </div>
+                  </td>
+                  <td>$700</td>
+                  <td>
+                    <i class="fa fa-remove icon custom-delete-button"></i>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-with-img">
+                    <img src="./cat-3.jpg" alt="" /><span>Colorful Shirt</span>
+                  </td>
+                  <td><span>$100</span></td>
+                  <td>
+                    <div class="quantity-input">
+                      <button>-</button>
+                      <input type="text" value="1" />
+                      <button>+</button>
+                    </div>
+                  </td>
+                  <td>$100</td>
+                  <td>
+                    <i class="fa fa-remove icon custom-delete-button"></i>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-with-img">
+                    <img src="./cat-1.jpg" alt="" /><span>Colorful Shirt</span>
+                  </td>
+                  <td><span>$150</span></td>
+                  <td>
+                    <div class="quantity-input">
+                      <button>-</button>
+                      <input type="text" value="1" />
+                      <button>+</button>
+                    </div>
+                  </td>
+                  <td>$150</td>
+                  <td>
+                    <i class="fa fa-remove icon custom-delete-button"></i>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-with-img">
+                    <img src="./cat-2.jpg" alt="" /><span>Colorful Shirt</span>
+                  </td>
+                  <td><span>$150</span></td>
+                  <td>
+                    <div class="quantity-input">
+                      <button>-</button>
+                      <input type="text" value="1" />
+                      <button>+</button>
+                    </div>
+                  </td>
+                  <td>$150</td>
+                  <td>
+                    <i class="fa fa-remove icon custom-delete-button"></i>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="wid-25 arrange-left">
+          <div class="cart-summary-wrapper">
+            <div class="coupon-inputs">
+              <input type="text" placeholder="Enter Couple" />
+              <button>Apply Couple</button>
+            </div>
+            <div class="cart-summary-body">
+              <div class="cart-summy-item">
+                <h6>Sub Total</h6>
+                <h6>$150</h6>
+              </div>
+              <div class="cart-summy-item">
+                <h6>Shipping</h6>
+                <h6>$100</h6>
+              </div>
+            </div>
+            <div class="total-wrapper">
+              <div class="total-head">
+                <h4>Total</h4>
+                <h4>$160</h4>
+              </div>
+              <div class="proceed-input">
+                <button>Proceed To Checkout</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper next-row">
+        <div class="footer">
+          <div class="wid-25 arrange-left margin-right-5">
+            <div class="logo">
+              <h1><span>E</span><span>Comm</span></h1>
+            </div>
+            <p class="footer-desc">
+              Dolore erat dolor sit lorem vero amet. Sed sit lorem magna, ipsum
+              no sit erat lorem et magna ipsum dolore amet erat.
+            </p>
+            <ul class="contact-list">
+              <li>
+                <i class="fa fa-map-marker-alt icon"></i>123 Street, New York,
+                USA
+              </li>
+              <li><i class="fa fa-envelope icon"></i>info@example.com</li>
+              <li><i class="fa fa-phone icon"></i>+012 345 67890</li>
+            </ul>
+          </div>
+          <div class="wid-25 quick-links arrange-left">
+            <h3>Quick Links</h3>
+            <ul>
+              <li>
+                <a href=""
+                  ><i class="fa fa-angle-right"></i><span>Home</span></a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><i class="fa fa-angle-right"></i><span>Our Shops</span></a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><i class="fa fa-angle-right"></i><span>Shop Details</span></a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><i class="fa fa-angle-right"></i><span>Checkout</span></a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><i class="fa fa-angle-right"></i><span>About Us</span></a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><i class="fa fa-angle-right"></i><span>Cart</span></a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="wid-25 quick-links arrange-left">
+            <h3>Quick Links</h3>
+            <ul>
+              <li>
+                <a href=""
+                  ><i class="fa fa-angle-right"></i><span>Home</span></a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><i class="fa fa-angle-right"></i><span>Our Shops</span></a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><i class="fa fa-angle-right"></i><span>Shop Details</span></a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><i class="fa fa-angle-right"></i><span>Checkout</span></a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><i class="fa fa-angle-right"></i><span>About Us</span></a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><i class="fa fa-angle-right"></i><span>Cart</span></a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="wid-25 arrange-left">
+            <h3>News Letter</h3>
+            <input type="text" class="footer-input" placeholder="Enter Name" />
+            <input type="text" class="footer-input" placeholder="Enter Email" />
+            <button class="footer-button">Subscribe</button>
+          </div>
+        </div>
+      </div>
+      <div class="copy-right">
+        <div>
+          © <b>Code Step by Step</b>. All Rights Reserved. Designed by
+          <b>Anil Sidhu</b>
+        </div>
+        <img src="./payments.png" alt="" />
+      </div>
+    </div>
+  </body>
+</html>
